@@ -12,7 +12,7 @@
     "vue": "^2.6.14"
   },
   "devDependencies": {
-    "@atom/b2c-tokens": "0.0.1-beta10",
+    "@atom/b2c-tokens": "0.0.1-beta11",
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.0",

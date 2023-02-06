@@ -48,9 +48,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+:root {
+  --button-primary-red: red;
+}
+
 h3 {
   margin: 40px 0 0;
-  color: var(--atom-price-down-weakness);
+  color: var(--atom-color-text-primary);
 }
 ul {
   list-style-type: none;
