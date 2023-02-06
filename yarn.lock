@@ -66,10 +66,10 @@
     lodash "^4.17.21"
     resize-observer-polyfill "^1.5.1"
 
-"@atom/b2c-tokens@0.0.1-beta9":
-  version "0.0.1-beta9"
-  resolved "https://miniapp.10jqka.com.cn/npmserver/@atom%2fb2c-tokens/-/b2c-tokens-0.0.1-beta9.tgz#eac80b7d07c212473d52eca6136ed7d2690779d6"
-  integrity sha512-ssrbePhKCjNRLKQ/TxM242GmDvHSrQrwzKw+SrHTNeY8iuRHyg7Bek9b94JVD9vIpMdDy6HbkLvo2y9jW5fw6A==
+"@atom/b2c-tokens@0.0.1-beta10":
+  version "0.0.1-beta10"
+  resolved "https://miniapp.10jqka.com.cn/npmserver/@atom%2fb2c-tokens/-/b2c-tokens-0.0.1-beta10.tgz#ca6d87cf6931264f1755f104f5148fd8bb511963"
+  integrity sha512-jXBkIADWCYOkP4ignsmPuG7g8zQySSi3FwCG6kabO5CWmVddi55hK2gWKnmRJbp7+xdxMaUqV8GBvJzPaBFohg==
   dependencies:
     css-vars-ponyfill "^2.4.8"
     fs-extra "^11.1.0"
