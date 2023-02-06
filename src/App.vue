@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome to Your Vue.js App" @test="handleParams(arguments)" />
+    <hxm-button @click="showDialog">测试</hxm-button>
   </div>
 </template>
 
@@ -12,7 +13,23 @@ export default {
   name: 'App',
   components: {
     HelloWorld
-  }
+  },
+  methods: {
+    showDialog() {
+      this.$dialog({
+        title: '标题',
+        content: '代码写出来是给人看的',
+        btns: [
+          {
+            text: '我知道了',
+          },
+        ],
+      });
+    },
+    handleParams(params) {
+      console.log(params);
+    }
+  },
 }
 </script>
 
